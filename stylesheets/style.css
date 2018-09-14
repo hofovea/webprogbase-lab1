@@ -1,0 +1,38 @@
+body {
+    background: green;
+}
+#menuContainer {
+    background: pink;
+    width: 200px;
+    padding: 5px;
+}
+.textMenuElement {
+    background: lightseagreen;   
+    width: 100px;
+    font-size: 20pt;
+    padding-left: 15px;   
+    padding-top: 5px;
+}
+.currentElement {
+
+}
+#header {
+    background: chartreuse;
+}
+li {
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+
+}
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+.textMenuElement:hover {
+    background: red;
+    color: navy;
+}
