@@ -1,26 +1,56 @@
 body {
-    background: green;
+    margin: 0px;
+    padding: 0px;
+    background: orange;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#mainContainer {
+    /* background: black; */
+    width: 1200px;
+    padding: 0;
+    margin: auto;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+#contentContainer {
+    height: 100%;
+    float: left;
+    background: rgb(0, 217, 255);
+    width: 1000px;
 }
 #menuContainer {
+    height: 100%;
     background: pink;
     width: 200px;
-    padding: 5px;
+    float: left;
 }
 .textMenuElement {
-    background: lightseagreen;   
-    width: 100px;
     font-size: 20pt;
     padding-left: 15px;   
     padding-top: 5px;
 }
 .currentElement {
-
+    background: rgb(0, 217, 255);
 }
 #header {
-    background: chartreuse;
+    background: white;
+    height: 250px;
+}
+ul {
+    padding-left: 0;
+    margin: 0;
 }
 li {
     list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: lightseagreen;   
+    width: 100%;
 }
 li a {
     text-decoration: none;
@@ -28,11 +58,51 @@ li a {
 }
 a {
     color: black;
+    text-decoration: none;
 }
 a:visited {
     color: black;
 }
-.textMenuElement:hover {
-    background: red;
+li:hover {
+    background: rgb(32, 137, 178);
     color: navy;
+}
+.logo {
+    float: left;
+    display: block;
+    width: 250px;
+    height: 250px;  
+}
+.headertext {
+    float: left;
+    font-size: 45pt;
+    font-family: cursive;
+    margin-top: 85px;
+    margin-left: 10px;
+    color: darkgoldenrod;
+}
+.aboutText {
+    font-size: 25pt;
+    margin-left: 10px;
+}
+.tableusers {
+    font-size: 20pt;
+    text-align: center;
+    border: 1px solid rgba(73, 194, 26, 0.918);
+}
+.tabledisign {
+    border: 5px solid rgb(151, 68, 0);
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.tabletop {
+    border: 3px solid rgba(73, 194, 26, 0.918);
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcomeText {
+    font-size: 25pt;
+    margin-left: 30%;
+    margin-top: 35px;
 }

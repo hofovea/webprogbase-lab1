@@ -1,20 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AllStory</title>
+  <meta charset="utf-8">
+  <title>Lab 1</title>
+  <meta name="description" content="Temporary story service">
+  <meta name="author" content="Защик Михаїл">
+  <link type="text/css" href="stylesheets/style.css" rel="stylesheet" />
 </head>
 <body>
-    <h1> About: test site</h1>
-    <h2> Choose one of users</h2>
-    <p>
-            <ul>
-                <li><a href="user1.html"> 1 user</a></li>
-                <li><a href="user2.html"> 2 user</a></li>    
-            </ul>
-    </p>      
-    <p><img src="images/logo.png" alt="logo picture"></p>
+  <div id="mainContainer">
+    <div id="header">
+      <img class="logo" src="images/yolo.png" alt="yolo stories">
+      <h1 class="headertext">Share your happiness</h1>
+    </div>
+    <div id="menuContainer">
+      <ul>
+        <li>
+          <a href="index.html">
+            <h3 class="textMenuElement">Home page</h3>
+          </a>
+        </li>
+        <li class="currentElement">
+          <a href="users.html">
+            <h3 class="textMenuElement">Users</h3>
+          </a>
+        </li>
+        <li>
+          <a href="enteties.html">
+            <h3 class="textMenuElement">Stories</h3>
+          </a>
+        </li>
+        <li>
+          <a href="about.html">
+            <h3 class="textMenuElement">About</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="contentContainer">
+        <table class="tabledisign">
+           <tr>
+               <th class="tabletop">Login</th>
+               <th class="tabletop">Fullname</th>
+               <th class="tabletop">Registered</th>
+           </tr>
+           <tr>
+               <td class="tableusers"><a href="user1.html">Petrov</a></td>
+               <td class="tableusers"><a href="user1.html">Ivan</a></td>
+               <td class="tableusers">07.05.2013</td>
+           </tr>
+           <tr>
+                <td class="tableusers"><a href="user2.html">Papich</a></td>
+                <td class="tableusers"><a href="user2.html">Vitalii</a></td>
+                <td class="tableusers">23.04.2076</td>
+            </tr>
+        </table>
+    </div>
+  </div>
 </body>
 </html>
