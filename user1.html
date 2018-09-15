@@ -1,17 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AllStory</title>
+  <meta charset="utf-8">
+  <title>Lab 1</title>
+  <meta name="description" content="Temporary story service">
+  <meta name="author" content="Защик Михаїл">
+  <link type="text/css" href="stylesheets/style.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>User 1</h1>
-    <p> Login: gggg</p>
-    <p> Registration date: 11.11.2036</p>
-        <p>Full name: User1</p>
-        <p> About: User1 is first test user on this website</p>
-    <p><img src="images/image1.jpg" alt="user picture"></p>
+  <div id="mainContainer">
+    <div id="header">
+      <img class="logo" src="images/yolo.png" alt="yolo stories">
+      <h1 class="headertext">Share your happiness</h1>
+    </div>
+    <div id="menuContainer">
+      <ul>
+        <li class="currentElement">
+          <a href="index.html">
+            <h3 class="textMenuElement">Home page</h3>
+          </a>
+        </li>
+        <li>
+          <a href="users.html">
+            <h3 class="textMenuElement">Users</h3>
+          </a>
+        </li>
+        <li>
+          <a href="stories.html">
+            <h3 class="textMenuElement">Stories</h3>
+          </a>
+        </li>
+        <li>
+          <a href="about.html">
+            <h3 class="textMenuElement">About</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="contentContainer">
+      <img class="userImage" src="images/image1.jpg" alt="snake">
+      <div class="userinfo">
+        <h2>Fullname: Ivan</h2>
+        <p>Login: Petrov</p>
+        <p>Registration-date: 07.05.2013</p>
+      </div>
+      <b class="Bio">Bio:</b><p class="Bio"> Ivan is the first user of my service.<br> Due to his active life, everyone can enjoy beautiful photos!</p>
+    </div>
+  </div>
 </body>
 </html>

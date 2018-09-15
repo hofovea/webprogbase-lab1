@@ -51,6 +51,7 @@ li {
     padding-bottom: 5px;
     background: lightseagreen;   
     width: 100%;
+    /* height: 95px; */
 }
 li a {
     text-decoration: none;
@@ -105,4 +106,53 @@ li:hover {
     font-size: 25pt;
     margin-left: 30%;
     margin-top: 35px;
+}
+.storyMenuElement {
+    height: 50px;
+    font-size: 25pt;
+    background: rgb(0, 217, 255);
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.storyItem {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;   
+    width: 100%;
+    background: rgb(0, 217, 255);
+}
+li:hover .storyMenuElement {
+    background: rgb(32, 137, 178);
+    color: navy;   
+}
+.userImage {
+    display: block;
+    float: left;
+    width: 250px;
+    height: 180px;
+    margin: 15px;
+}
+.userinfo {
+    width: 700px;
+    height: 210px;
+    float: left;
+    font-size: 15pt;
+}
+.Bio {
+    margin-left: 15px;
+    font-size: 15pt;
+}
+.storyDetails {
+    display: block;
+    float: left;
+    width: 400px;
+    height: 377px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.comment {
+    float: left;
+    margin-left: 15px;
+    font-size: 25pt;
 }
